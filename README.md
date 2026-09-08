@@ -11,7 +11,7 @@ an *alternate implementation* which is RAM-efficient (RAM usage is
 divided by about 3) with comparable CPU efficiency (it is somewhat
 slower on large CPU, and somewhat faster on Arm Cortex M4). Like
 *c-fn-dsa*, it tries to follow what is my *best guess* at what the
-upcoming FFIPS 206 draft will contain. Exactly when that draft will be
+upcoming FIPS 206 draft will contain. Exactly when that draft will be
 published is not known. Moreover, the *c-fn-dsa-alt* implementation uses
 a different sequence of floating-point operations (and fewer such
 operations), so that it *cannot* always reproduce test vectors with a
